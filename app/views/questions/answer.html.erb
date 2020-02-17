@@ -1,0 +1,23 @@
+<h1>Your answer</h1>
+
+<div class="card">
+  <h2>Question</h2>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p><%= @question %></p>
+      <footer class="blockquote-footer">You</footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Answer</h2>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p><%= @answer %></p>
+      <footer class="blockquote-footer">Your coach</footer>
+    </blockquote>
+  </div>
+</div>
+
+<p><%= link_to 'Ask a new question', ask_path %></p>
